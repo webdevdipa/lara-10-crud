@@ -1,0 +1,32 @@
+
+Todo:: make Controller Product which will do crud with products table
+Table ::
+products{
+	id: auto increament, primarykey, unsigned, bigint
+	title: varchar 200
+	description: text
+	slug: varchar 255
+	status: tinyint [0  disable,  1  active]
+	created_at
+	updated_at
+	deleted_at
+}
+Controller Name:: Product [path app/Http/Controllers/ProductController]
+Methods & Route & Views :: 
+use Resource Route and methods as default
+View Path resources/product/ ..
+Model:: Product [path app/Model/ ..]
+
+write Commands for make
+Controller, Model, View, Migration
+
+Help to generate this for Laravel 11  
+
+
+
+
+Help to add code in respective files 
+model will have all conomn's information of products table
+controller's index will link with all other actions 
+add layout into [resource/views/layouts/default.blade.php] 
+help 

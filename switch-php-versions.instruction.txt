@@ -1,0 +1,8 @@
+
+SwitchIng PHP Versions
+
+sudo update-alternatives --set php /usr/bin/php8.1 
+sudo a2dismod php* 
+sudo systemctl restart apache2 
+sudo a2enmod php8.1
+sudo systemctl restart apache2 
