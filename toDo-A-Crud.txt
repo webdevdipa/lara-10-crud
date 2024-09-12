@@ -31,7 +31,7 @@ https://github.com/webdevdipa/lara-10-crud/blob/master/database/migrations/2024_
 in file 
 database/migrations/2024_09_12_151203_create_products_table.php
 
-execute seeder by 
+execute migrate by 
 
 php artisan migrate
 ------------------------------------------------------------------------------------------------------------------------------
